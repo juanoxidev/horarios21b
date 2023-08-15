@@ -166,12 +166,28 @@ a {
   text-align: center;
 }
 
-zero-md {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+table.customTable {
+  width: 50%;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #f8f8f8;
+  border-style: solid;
+  color: #ffffff;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+table.customTable td,
+table.customTable th {
+  border-width: 2px;
+  border-color: #f8f8f8;
+  border-style: solid;
+  padding: 5px;
+  width: auto;
+}
+
+table.customTable thead {
+  background-color: #00000057;
 }
 
 @media screen and (max-width: 1050px) {
