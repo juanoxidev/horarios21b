@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="images/logo.png" />
+  <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+  <script type="module" src="/node_modules/zero-md/dist/zero-md.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>Horarios Ort</title>
+
+  <title>Horarios ORT</title>
 </head>
 
 <body>
@@ -21,16 +25,17 @@
         <h2>Lunes</h2>
       </div>
       <div class="bd2">
-        <h3>Base de datos 2</h3>
-        <h4>Falta</h4>
+        <h3>Base de datos 2 (BD2)</h3>
+        <h4>Bolatti, Rubén</h4>
         <div class="info">
           <h5 class="info_horario"> Horario: 19:00 a 20:20 hs.</h5>
-          <h5 class="info_contacto"> Email:Falta</h5>
+          <h5 class="info_contacto"> Email: ruben.bolatti@ort.edu.ar</h5>
+          <h5 class="info_contacto"> Asunto: BD2 21B</h5>
           <div class="links">
-            <!-- <h4 class="info_drive"><a href="https://drive.google.com/drive/folders/1cs_V2Tz5N5nV1oZ0fHcqK0gLr5GQlgA7"
+            <h4 class="info_drive"><a href="https://drive.google.com/drive/folders/1F1UD1Yvq17qNmfOj1M7wW5azVCvChhWg"
                 target="_blank">
                 <img src="./images/drive.svg">
-              </a></h4> -->
+              </a></h4>
             <h4 class="info_zoom"><a href="https://us02web.zoom.us/j/84396388896" target="_blank"><img
                   src="./images/zoom.svg" alt=""></a></h4>
             <h4 class="info_asistencia"> <a
@@ -40,8 +45,8 @@
         </div>
       </div>
       <div class="am">
-        <h3>Análisis y Metodologías</h3>
-        <h4>Falta</h4>
+        <h3>Análisis y Metodologías (AM)</h3>
+        <h4>Roitman, Marcelo</h4>
         <div class="info">
           <h5 class="info_horario">Horario: 20:20 a 23:00 hs.</h5>
           <h5 class="info_contacto">Email: falta</h5>
@@ -65,7 +70,7 @@
         <h2>Martes</h2>
       </div>
       <div class="pnt2">
-        <h3>Programación en Nuevas Tecnologías 2</h3>
+        <h3>Programación en Nuevas Tecnologías 2 (PNT2)</h3>
         <h4>falta</h4>
         <div class="info">
           <h5 class="info_horario">Horario: 19:00 a 23:00 hs.</h5>
@@ -94,7 +99,7 @@
         <h2>Miercoles</h2>
       </div>
       <div class="p2">
-        <h3>Programación 2 </h3>
+        <h3>Programación 2 (P2)</h3>
         <h4>falta</h4>
         <div class="info">
           <h5 class="info_horario">Horario: 19:00 a 23:00 hs.</h5>
@@ -115,7 +120,7 @@
         <h2>Jueves</h2>
       </div>
       <div class="tp2">
-        <h3>Taller de Programación 2 </h3>
+        <h3>Taller de Programación 2 (TP2)</h3>
         <h4>Sanchez, Daniel </h4>
         <div class="info">
           <h5 class="info_horario">Horario: 19:00 a 23:00 hs.</h5>
@@ -133,6 +138,10 @@
       </div>
     </div>
   </div>
+  <h2>Parciales</h2>
+  <zero-md src="parciales.md">
+  </zero-md>
 </body>
+
 
 </html>
