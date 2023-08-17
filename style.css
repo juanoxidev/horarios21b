@@ -74,7 +74,7 @@ img {
   justify-content: center;
   background-color: #23588963;
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 
 .bd2 {
@@ -86,7 +86,7 @@ img {
   background-color: #5a0b4d67;
 
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 
 .p2 {
@@ -149,16 +149,16 @@ a {
 .info_asistencia img {
   height: auto;
   width: 50px;
-  margin: auto;
+  margin: 0.5rem;
 }
 .info_drive img {
   height: 50px;
-  margin: auto;
+  margin: 0.5rem;
 }
 
 .info_zoom img {
   height: 50px;
-  margin: auto;
+  margin: 0.5rem;
 }
 
 .anio {
